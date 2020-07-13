@@ -1,3 +1,44 @@
-<resources>
-    <string name="app_name">BluetoothChat</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">B Chat</string>
+
+    <string name="intro_message">
+        <![CDATA[
+
+
+              这个应用程序允许两台Android设备进行通过蓝牙双向文本聊天。
+              演示了蓝牙API的所有基本功能，如:
+              (1) 扫描其他蓝牙设备
+              (2) 查询已配对蓝牙设备的本地蓝牙适配器
+              (3) 建立 RFCOMM 通道/socket
+              (4) 连接到远程设备
+              (5) 通过蓝牙传输数据
+
+
+        ]]>
+    </string>
+
+    <string name="sample_show_log">显示日志</string>
+    <string name="sample_hide_log">隐藏日志</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">发送</string>
+    <string name="not_connected">未连接蓝牙设备</string>
+    <string name="bt_not_enabled_leaving">蓝牙已关闭，离开蓝牙聊天</string>
+    <string name="title_connecting">连接中</string>
+    <string name="title_connected_to">连接到<xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">未连接</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">扫描设备中</string>
+    <string name="select_device">选择一个设备连接</string>
+    <string name="none_paired">没有配对设备</string>
+    <string name="none_found">没有发现设备</string>
+    <string name="title_paired_devices">配对的设备</string>
+    <string name="title_other_devices">其他可用的设备</string>
+    <string name="button_scan">扫描设备</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">安全地连接一个设备</string>
+    <string name="insecure_connect">不安全地连接一个设别</string>
+    <string name="discoverable">使被发现</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.BluetoothChat
+package com.example.bluetoothchat
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
