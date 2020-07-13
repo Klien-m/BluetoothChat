@@ -146,7 +146,7 @@ startActivity(discoverableIntent)
 1. 使用 `BluetoothDevice`，通过调用 `createRfcommSocketToServiceRecord(UUID)` 获取 `BluetoothSocket`。
 2. 通过调用 `connect()` 发起连接。
 
-### 管理连接
+#### 管理连接
 
 1. 使用 `getInputStream()` 和 `getOutputStream()`，分别获取通过套接字处理数据传输的 `InputStream` 和 `OutputStream`。
 2. 使用 `read(byte[])` 和 `write(byte[])` 读取数据以及将其写入数据流。
